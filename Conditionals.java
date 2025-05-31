@@ -76,5 +76,46 @@ public class Conditionals {
             default:
                 System.out.println("your guest");
         }
+
+        //        for (int i = 0; i < 5; i++)
+//            System.out.println("Hello World " +i);
+//
+//
+//        //WHILE LOOPS
+//
+//        int j = 0;
+//        while (j <= 5) {
+//            System.out.println("Heyyyy");
+//        j++;
+//
+//        String input = "";
+//        Scanner sc=new Scanner(System.in);
+//        while (!input.equals("quit")){
+//            System.out.println("Input: ");
+//            input = sc.next().toLowerCase();
+//            System.out.println(input);
+//        }
+
+        //DO WHILE LOOP
+
+//        do {
+//            System.out.println("Input: ");
+//            input = sc.next().toLowerCase();
+//            System.out.println(input);
+//        }while (!input.equals("quit"));
+
+        //FOR EACH
+
+        String[] fruits = {"apple","banna","mango"};
+
+        for (int i = 0; i < fruits.length; i++) {
+            System.out.println(fruits[i]);
+        }
+
+        for (String fruit : fruits)
+            System.out.println(fruit);
     }
+
+
+}
 }
